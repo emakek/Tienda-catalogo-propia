@@ -216,9 +216,11 @@ nav.menu-nav {
 }
 
 .carta1 ul {
-  list-style: none;
-  padding: 0;
-  margin: 1rem 0;
+  list-style: disc; /* activa los círculos */
+  padding-left: 20px; /* separación desde el borde izquierdo */
+  margin: 1rem auto;
+  text-align: left; /* mantiene los ítems alineados a la izquierda */
+  display: inline-block; /* permite centrar toda la lista */
 }
 
 .carta1 li {
@@ -238,6 +240,10 @@ nav.menu-nav {
   padding: 1rem 0.5rem;
   color: #f0f0f0;
   font-size: 0.95rem;
+  background-color: rgba(0, 0, 0, 0.8); /* fondo negro semi-transparente */
+  border-radius: 5px;
+  max-width: fit-content; /* que el fondo solo cubra el texto */
+  margin: auto;
 }
 
 .galeria-proyectos {
